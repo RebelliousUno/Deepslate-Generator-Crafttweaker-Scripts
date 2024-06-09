@@ -1,3 +1,5 @@
+#modloader forge
+
 import crafttweaker.forge.api.event.block.fluid.FluidPlaceBlockEvent;
 import crafttweaker.api.block.BlockState;
 
