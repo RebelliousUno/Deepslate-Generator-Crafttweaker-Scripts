@@ -1,5 +1,5 @@
 /*
-author: RebelliousUno
+ * Author: RebelliousUno
 */
 
 import crafttweaker.api.block.BlockState;
