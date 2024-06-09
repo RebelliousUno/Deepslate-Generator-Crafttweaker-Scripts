@@ -8,7 +8,7 @@ import crafttweaker.api.util.math.BlockPos;
 
 
 public function getNewBlockState(liquidPos as BlockPos, level as Level, newState as BlockState) as BlockState {
-	val yLevel = 0;
+    val yLevel = 0;
     if (liquidPos.y >= yLevel) {
         return newState;
     }
@@ -25,6 +25,6 @@ public function getNewBlockState(liquidPos as BlockPos, level as Level, newState
     if (newState == <blockstate:minecraft:stone>) { 
         return <block:minecraft:deepslate>.getDefaultState();
     } 
-	
-	return newState;
+
+    return newState;
 }
